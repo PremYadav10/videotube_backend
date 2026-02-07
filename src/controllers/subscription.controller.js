@@ -6,12 +6,12 @@ import { ApiResponse } from "../utils/ApiResponse.js"
 import { asyncHandler } from "../utils/asyncHandler.js"
 
 const toggleSubscription = asyncHandler(async (req, res) => {
-    console.log("frlo");
+    // console.log("frlo");
 
     const { channelId } = req.params
     // TODO: toggle subscription
 
-    console.log("chhanel id", channelId);
+    // console.log("chhanel id", channelId);
 
 
     const userId = req.user._id
